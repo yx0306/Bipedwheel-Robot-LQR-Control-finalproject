@@ -15,7 +15,7 @@ State vector $x = [x, \dot{x}, \theta, \dot{\theta}, \delta, \dot{\delta}]^T$
  [ 0.      0.      0.1207  1.      0.      0.    ]
  [ 0.      0.      0.      0.      1.      0.002 ]
  [ 0.      0.      0.      0.      0.      1.    ]]
-B Matrix (Control Matrix)Control input $u = [T_L, T_R]^T$Plaintext[[ 0.      0.    ]
+### B Matrix (Control Matrix)Control input $u = [T_L, T_R]^T$Plaintext[[ 0.      0.    ]
  [ 0.0125  0.0125]
  [ 0.      0.    ]
  [-0.0269 -0.0269]
@@ -32,5 +32,6 @@ Use the GUI slider to control the robot's target velocity.Close the simulation w
 2. 找到 `README.md` 檔案（如果沒有就新增一個）。
 3. 將上面的程式碼區塊內容**全選複製**。
 4. **直接取代**掉原本檔案裡的所有文字。
+
 
 如果你需要我針對 **LQR 的 Q 矩陣參數調校** 給予更多建議，或是想加入更多關於 **Bipedal Robot 物理模型** 
