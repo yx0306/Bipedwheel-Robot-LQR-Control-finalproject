@@ -1,7 +1,6 @@
 # LQR Control for Bipedal Robot Simulation
 
 This repository contains the implementation of an LQR controller for a two-wheeled bipedal robot simulation using MuJoCo. This project demonstrates the linearization of the robot's dynamics and the design of a state-feedback controller to achieve balance and velocity tracking.
-
 1. System Description
 
 Based on the derivation from the course materials (Decoupled Balance Subsystem), the system state-space matrices used in this simulation are:
@@ -36,4 +35,5 @@ Use the GUI slider to control the robot's target velocity.Close the simulation w
 
 
 如果你需要我針對 **LQR 的 Q 矩陣參數調校** 給予更多建議，或是想加入更多關於 **Bipedal Robot 物理模型** 
+
 
